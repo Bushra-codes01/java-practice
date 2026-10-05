@@ -1,10 +1,13 @@
-import java.util.Scanner;
-public class Main{
-public static void main(String[] args) {
-   Scanner sc = new Scanner(System.in);
-   System.out.print("Enter your age: ");
-   int age = sc.nextInt();
-   System.out.println(age);
-   sc.close();
+public class Main {
+    public static void main(String[] args) {
+        int x=57;
+        int y=x%10;
+        
+        if (y%2==0){
+           System.out.println("It is an even no."); 
+        
+        }else{
+            System.out.println("It is an odd no.");
 }
+    }
 }
