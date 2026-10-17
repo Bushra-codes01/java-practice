@@ -16,7 +16,7 @@ public class delivery {
         }else{
             System.out.println("Delivery fee :40 rs");
         }
-        sc.next();
+        sc.close();
     }
 
 }
